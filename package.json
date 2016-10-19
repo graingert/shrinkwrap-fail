@@ -1,0 +1,15 @@
+{
+  "name": "shrinkwrap-fail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postshrinkwrap": "shrinkwarp --ignore fsevents"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "shrinkwarp": "^2.0.0"
+  }
+}
